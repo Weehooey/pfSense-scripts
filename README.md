@@ -22,7 +22,7 @@ If you are using pfSense in Proxmox Virtual Environment, this script run from th
 5. Run the installation script `./install-qemu-guest-agent.sh`
 6. When the script finished, it likely will output some instructions on the screen. IGNORE these instructions. The script has already taken care of it. 
 7. Exit from the command line
-8. Halt the system (i.e. power it off)
+8. Halt the system (power it off, reboot will not suffice)
 9. In PVE, make sure Options > QEMU Guest Agent is set to `enabled`
 10. Power the system back on
 11. You should now see the IP addresses for the interfaces on the VMs summary page (click the More button to see all of them)
