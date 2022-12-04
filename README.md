@@ -11,7 +11,7 @@ As with all scripts you download from the internet, inspect them and **kiddy scr
 
 ## install-qemu-guest-agent.sh
 
-If you are using pfSense in Proxmox Virtual Environment, this script run from the pfSense command line will install the QEMU guest agent and set it up so it will run on boot up.
+If you are using pfSense in Proxmox Virtual Environment, running this script from the pfSense command line will install the QEMU guest agent and set it up so it will run on boot up.
 
 ### Use
 
