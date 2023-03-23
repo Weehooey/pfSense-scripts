@@ -16,9 +16,9 @@ If you are using pfSense in Proxmox Virtual Environment (PVE), running this scri
 
 ### Enable QEMU Guest Agent in Proxmox VE
 
-When creating your pfSense virtual machine (VM), make sure Options > QEMU Guest Agent is set to `enabled` before you start your virtual machine. 
+When creating your pfSense virtual machine (VM), set Options > QEMU Guest Agent to `enabled` when you create your VM.
 
-If you enable the QEMU Guest Agent while the VM is running, you will need to power it off (reboot will not suffice) and power it back on.
+If you enable the QEMU Guest Agent while the VM is running, you will need to reboot it.
 
 
 ### Usage
