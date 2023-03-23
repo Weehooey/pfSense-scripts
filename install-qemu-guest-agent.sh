@@ -1,6 +1,6 @@
 #!/bin/sh
 
-pkg install -y qemu-guest-agent
+pkg install -y qemu-guest-agent > /dev/null
 
 cat > /etc/rc.conf.local << EOF
 qemu_guest_agent_enable="YES"
@@ -15,3 +15,5 @@ service qemu-guest-agent start
 EOF
 
 chmod +x /usr/local/etc/rc.d/qemu-agent.sh
+
+service qemu-guest-agent start
