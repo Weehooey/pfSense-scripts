@@ -30,6 +30,14 @@ If you enable the QEMU Guest Agent while the VM is running, you will need to reb
 5. Run the installation script `./install-qemu-guest-agent.sh`
 6. You should now see the IP addresses for the interfaces on the VMs summary page (click the More button to see all of them)
 
-Tested on 2.5.2, 2.6.0, 2.7.0
+## Tested On
+
+- pfSense CE
+  - 2.5.2
+  - 2.6.0
+  - 2.7.0
+- pfSense Plus
+  - 23.05
+  - 23.05.1
 
 Thank you to contributors on this [Netgate forum post](https://forum.netgate.com/topic/162083/pfsense-vm-on-proxmox-qemu-agent-installation). You can also find some troubleshooting tips on the same forum post. 
