@@ -2,7 +2,7 @@
 
 The scripts in this repo have been collected and tweaked from various places. 
 
-The instructions and scripts have been tested but there is no guarrantee they will work in your situation. Make appropriate backups before using. 
+The instructions and scripts have been tested, but there is no guarantee they will work in your situation. Make appropriate backups before using. 
 
 As with all scripts you download from the internet, inspect them and **kiddy scriptor usus cautela**. 
 
@@ -23,7 +23,7 @@ If you enable the QEMU Guest Agent while the VM is running, you will need to reb
 
 ### Usage
 
-1. Log into pfSense command line as `root`
+1. Log into the pfSense command line as `root`
 2. Run `curl -LJO https://raw.githubusercontent.com/Weehooey/pfSense-scripts/main/install-qemu-guest-agent.sh`
 3. READ THE DOWNLOADED FILE! You should never blindly run scripts from the internet.
 4. Make the file executable `chmod +x install-qemu-guest-agent.sh`
@@ -36,8 +36,9 @@ If you enable the QEMU Guest Agent while the VM is running, you will need to reb
   - 2.5.2
   - 2.6.0
   - 2.7.0
+  - 2.7.2
 - pfSense Plus
   - 23.05
   - 23.05.1
 
-Thank you to contributors on this [Netgate forum post](https://forum.netgate.com/topic/162083/pfsense-vm-on-proxmox-qemu-agent-installation). You can also find some troubleshooting tips on the same forum post. 
+Thanks to contributors on this [Netgate forum post](https://forum.netgate.com/topic/162083/pfsense-vm-on-proxmox-qemu-agent-installation). You can also find some troubleshooting tips on the same forum post. 
