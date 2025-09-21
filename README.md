@@ -37,6 +37,7 @@ If you enable the QEMU Guest Agent while the VM is running, you will need to reb
   - 2.6.0
   - 2.7.0
   - 2.7.2
+  - 2.8.1
 - pfSense Plus
   - 23.05
   - 23.05.1
